@@ -463,9 +463,17 @@ a{
     font-size: 64px;
 }
 
-/* .media_button{
+.media_button_display{
     display: none;
-} */
+}
+
+.media_tour{
+    display: none;
+}
+
+.media_design_icons{
+    display: none;
+}
 
 
 
@@ -483,9 +491,6 @@ a{
     .image2{
         width: 49.99%;
     }
-    .media_button{
-        display: none;
-    }
 }
 
 
@@ -500,6 +505,7 @@ a{
         display: block;
     }
     .first_side{
+        padding-left: 8px;
         width: 100%;
     }
     .image1{
@@ -555,6 +561,7 @@ a{
         width: 32.99%;
     }
     .media_button_display{
+        display: block;
         color: white;
         background-color: #4CAF50;
         width: 100%;
@@ -563,6 +570,7 @@ a{
         font-family: "Poppins", sans-serif;
     }
     .media_tour{
+        display: block;
         font-family: "Poppins", sans-serif;
         font-size: 16px;
         border: none;
@@ -572,4 +580,37 @@ a{
         color: white;
         cursor: pointer;
     }
+    .media_icon_div{
+
+        display: flex;
+    }
+    .media_design_icons{
+        display: block;
+        width: 32.99%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .the_app{
+        font-size: 36px;
+    }
+    .why_buy_it{
+        font-size: 36px;
+    }
+    .clarity{
+        font-size: 36px;
+    }
+    .pixels_who{
+        font-size: 36px;
+    }
+    .features{
+        font-size: 36px;
+    }
+    .fa.icon1{
+        font-size: 30px;
+    }
+    .icon_text{
+        font-size: 12px;
+    }
+
 }
