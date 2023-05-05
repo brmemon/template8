@@ -442,10 +442,6 @@
     margin-bottom: 17px;
 }
 
-/* .complete:hover{
-
-} */
-
 .powered_by{
     font-size: 15px;
     font-family: "Poppins", sans-serif;
@@ -457,27 +453,24 @@ a{
 }
 
 .media_div{
-    text-align: center;
-    display: block;
+    display: none;
 }
-.download_application_media{
-    color: black;
-    background-color: #f1f1f1;
-    border-style: none;
-    padding: 12px 24px;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    cursor: pointer;
-    font-size: 16px;
-    font-family: "Poppins", sans-serif;
+
+.design_icons , .design_icons_media{
+    width: 24.99%;
 }
-.media_image{
-        padding: 0 8px;
+.fa.icon1{
+    font-size: 64px;
 }
+
+/* .media_button{
+    display: none;
+} */
 
 
 
-@media screen and (min-width: 601px) {
+
+@media screen and (min-width: 601px) and (max-width: 992px) {
     .first_side{
         width: 49.99%;
     }
@@ -489,6 +482,9 @@ a{
     }
     .image2{
         width: 49.99%;
+    }
+    .media_button{
+        display: none;
     }
 }
 
@@ -528,11 +524,52 @@ a{
         width: 100%;
     }
     .design_icons{
-        font-size: 36px!important;
-        /* display: none; */
+        width: 32.99%;
+        font-size: 36px;
     }
     .icon1{
-        /* display: none; */
-        font-size: 36px!important;
+        font-size: 36px;
+    }
+    .media_div{
+        text-align: center;
+        display: block;
+    }
+    .download_application_media{
+        color: black;
+        background-color: #f1f1f1;
+        border-style: none;
+        padding: 12px 24px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        cursor: pointer;
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+    }
+    .media_image{
+            padding: 0 8px;
+    }
+    .design_icons_media{
+        display: none;
+    }
+    .design_icons.i{
+        width: 32.99%;
+    }
+    .media_button_display{
+        color: white;
+        background-color: #4CAF50;
+        width: 100%;
+        border: none;
+        padding: 8px 16px;
+        font-family: "Poppins", sans-serif;
+    }
+    .media_tour{
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        border: none;
+        width: 100%;
+        padding: 0px 16px 8px 16px;
+        background-color: #000;
+        color: white;
+        cursor: pointer;
     }
 }
